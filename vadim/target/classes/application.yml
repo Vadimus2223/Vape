@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: vadim
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/ib?currentSchema=vadim
+    username: postgres
+    password: mysecretpassword
+springdoc:
+  api-docs:
+    path: "/swagger"
